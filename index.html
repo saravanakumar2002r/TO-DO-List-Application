@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task List</title>
+<link rel="Stylesheet" href="Style.css">
+
+
+</head>
+<body>
+<div class="container">
+ <center> <h1> To-Do List Application</h1></center>
+ <center> <form id="task-form">
+    <input type="text" id="task-input" placeholder="   Add new task">
+    <button type="submit" id="submits">Add Task</button>
+  </form></center>
+  <ul id="task-list" class="task-list"></ul>
+  <div>
+  <center>  <button id="filter-all">All</button>
+    <button id="filter-completed">Completed</button>
+    <button id="filter-pending">Pending</button></center>
+  </div>
+</div>
+<script src="function.js"></script>
+</body>
+</html>

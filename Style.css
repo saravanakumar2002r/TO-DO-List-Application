@@ -1,0 +1,89 @@
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    padding-top: 5%;
+    
+  }
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  .task-item label {
+    margin-left: 10px;
+  }
+  .task-item input[type="checkbox"] {
+    margin-right: 20px;
+  }
+  #submits
+  {
+         background-color: orangered;
+         border: none;
+         color: whitesmoke;
+        font-size: 20px;
+        border-radius:  40px;
+        font-weight: 700;
+        font-family: 'Times New Roman', Times, serif;
+  }
+  #submits:hover
+  {
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+  }
+  #task-input
+  {
+      width: 60%;
+      height: 30px;
+      padding-right: 20px;
+      border-radius: 20px;
+      border: none;
+      border: 1px solid gray;
+  }
+  #filter-all,#filter-completed,#filter-pending
+  {
+    background-color: orangered;
+    border: none;
+    color: whitesmoke;
+   font-size: 20px;
+   border-radius:  40px;
+   font-weight: 700;
+   font-family: 'Times New Roman', Times, serif;
+  }
+ #filter-pending:hover
+  {
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+  }
+  #filter-completed:hover
+  {
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+  }
+  #filter-all:hover{
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+   
+  }
